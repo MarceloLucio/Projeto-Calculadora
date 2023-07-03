@@ -31,14 +31,18 @@ h1{
     max-width: 250px;
     min-height: 100px;
     display: flex;
+    justify-content: end;
     align-items: center;
+    text-align: end;
     border-radius: 15px 15px 15px 15px ;
     margin-bottom: 8px;
 }
-.resultado > p{
+#res{
     padding: 10px;
     color: rgba(245, 245, 245, 0.815);
+    word-break: break-all;
 }
+
 .linha{
     display: flex;
     justify-content: space-between;
