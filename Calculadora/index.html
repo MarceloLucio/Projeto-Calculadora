@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Calculadora</title>
+
+</head>
+
+<body>
+    <header>
+       <h1>Calculadora</h1>
+        
+    </header>
+    <section>
+        
+        <div class="principal">
+            <div class="resultado">
+                <p id="res">  </p>
+            </div>
+            <div class="linha">
+                <div class="digitos" id="EspecialC" onclick="Clean()">C</div>
+                <div class="digitos-especial" id="parenteses" onclick="Digito('(')">( </div>
+                <div class="digitos-especial" onclick="Digito(')')">)</div>
+                <div class="digitos-especial" onclick="Digito('/')">÷</div>
+            </div>
+            <div class="linha">
+                <div class="digitos" id="sete" onclick="Digito('7')">7</div>
+                <div class="digitos" id="oito" onclick="Digito('8')">8</div>
+                <div class="digitos" onclick="Digito('9')">9</div>
+                <div class="digitos-especial"onclick="Digito('*')">x</div>
+            </div>
+            <div class="linha">
+                <div class="digitos" onclick="Digito('4')">4</div>
+                <div class="digitos" onclick="Digito('5')">5</div>
+                <div class="digitos" onclick="Digito('6')">6</div>
+                <div class="digitos-especial" onclick="Digito('-')">-</div>
+            </div>
+            <div class="linha">
+                <div class="digitos" onclick="Digito('1')">1</div>
+                <div class="digitos" onclick="Digito('2')">2</div>
+                <div class="digitos" onclick="Digito('3')">3</div>
+                <div class="digitos-especial" onclick="Digito('+')">+</div>
+            </div>
+            <div class="linha">
+                <div class="digitos" onclick="Digito('0')">0</div>
+                <div class="digitos" onclick="Digito('.')">.</div>
+                <div class="digitos" onclick="Back()">&lt;</div>
+                <div class="digitos" id="EspecialIgual" onclick="Calcular()">=</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(28, 40, 63);
+    color: white;
+    font-size: 2.5em;
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+}
+.principal{
+    background-color: rgba(0, 0, 0, 0.678);
+    max-width: 250px;
+    min-height: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.171);
+    margin: auto;
+}
+.resultado{
+    background-color:rgba(36, 52, 82, 0.822);
+    max-width: 250px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 15px 15px ;
+    margin-bottom: 8px;
+}
+.resultado > p{
+    padding: 10px;
+    color: rgba(245, 245, 245, 0.815);
+}
+.linha{
+    display: flex;
+    justify-content: space-between;
+}
+.LinhaEspecial{
+    display: flex;
+    margin-bottom: 0px;
+    
+    
+}
+.digitos{
+    margin: 2px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline;
+    background-color: rgb(38, 39, 83);
+    border-radius: 100%;
+    font-weight: normal;
+}
+.digitos:hover{
+    background-color: rgba(119, 119, 151);
+    border-radius: 20px;
+}
+.digitos-especial{
+    margin: 2px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline;
+    background-color: rgb(60, 61, 88);
+    border-radius: 100%;
+}
+.digitos-especial:hover{
+    background-color: rgb(119, 119, 151);
+    border-radius: 20px;
+}
+#EspecialC{
+    background-color: rgba(130, 70, 187, 0.74);
+}
+#EspecialC:hover{
+    background-color: rgba(144, 98, 187, 0.74);
+}
+#EspecialIgual:hover{
+    background-color: rgba(36, 88, 184, 0.808);
+}
+
+
