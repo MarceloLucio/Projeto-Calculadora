@@ -42,6 +42,12 @@ h1{
     color: rgba(245, 245, 245, 0.815);
     word-break: break-all;
 }
+#backspace{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 
 .linha{
     display: flex;
