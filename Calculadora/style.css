@@ -74,6 +74,7 @@ h1{
     display: inline;
     background-color: rgb(60, 61, 88);
     border-radius: 100%;
+    cursor: pointer;
 }
 .digitos-especial:hover{
     background-color: rgb(119, 119, 151);
